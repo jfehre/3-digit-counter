@@ -26,22 +26,22 @@ The wiring schema was taken from [www.jameco.com](https://www.jameco.com/Jameco/
 
 I used 330 Ohm resistors and for the transistors the [2N 3904 H331](https://www.alldatasheet.com/view_datasheet.jsp?Searchword=2N3904H331), which is a general purpose NPN transistor.
 
->!Note  
+> [!Note]  
 > You can also use PNP transistors as shown [here](https://electronics.stackexchange.com/questions/228857/npn-or-pnp-for-multiplex-seven-segment-display)
 
 ### Personal wiring notes
 
-This shows the connection and wiring with colors
-| **Arduino Port** | **Wire Color** | **Segment** | **Display pin** |
+This table documents the connection and wiring of my setup with corresponding wire colors
+| **Arduino Port** | **Wire Color** | **Segment** | **Display pin**  |
 |------------------|----------------|-------------|------------------|
 | D9               | orange         | A           | 10               |
-| D8               | yellow          | B           | 9                |
-| D7               | gree          | C           | 8                |
+| D8               | yellow         | B           | 9                |
+| D7               | gree           | C           | 8                |
 | D6               | white          | D           | 5                |
-| D5               | gray          | E           | 1                |
-| D4               | brown         | F           | 2                |
-| D3               | black       | G           | 3                |
-| D2               | blue          | dp       | 7                |
+| D5               | gray           | E           | 1                |
+| D4               | brown          | F           | 2                |
+| D3               | black          | G           | 3                |
+| D2               | blue           | DP          | 7                |
 
 
 ### Getting Started
